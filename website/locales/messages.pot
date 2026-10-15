@@ -3816,7 +3816,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-example.zip</span >
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
 #. {ph6}: <span class="terminal-cursor" aria-hidden="true">
@@ -4830,7 +4830,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-example.zip</span >
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
 #. {ph6}: <span class="terminal-cursor" aria-hidden="true">
@@ -8538,7 +8538,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>

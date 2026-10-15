@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[เว็บไซต์](https://rea.tools/th/) · [คู่มือ](https://rea.tools/th/guides/) · [ตัวอย่างการใช้งาน](https://rea.tools/th/showcase/)**
+**[เว็บไซต์](https://reareverse.com/th/) · [คู่มือ](https://reareverse.com/th/guides/) · [ตัวอย่างการใช้งาน](https://reareverse.com/th/showcase/)**
 
 [เริ่มต้นอย่างรวดเร็ว](#เริ่มต้นอย่างรวดเร็ว) · [REA ทำงานอย่างไร](#rea-ทำงานอย่างไร) · [สิ่งที่วิเคราะห์ได้](#สิ่งที่วิเคราะห์ได้) · [ตัวอย่างการใช้งาน](#ตัวอย่างการใช้งาน) · [คำถามที่พบบ่อย](#คำถามที่พบบ่อย) · [เครื่องมือ GNU objdump และ Rizin](../reverse-engineering-tools.md) · [เอกสาร](#เอกสาร)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> แหล่งทางการของ REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> แหล่งทางการของ REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > โปรดใช้ลิงก์ติดตั้งและรุ่นเผยแพร่จากแหล่งทางการเหล่านี้ ชื่อที่เก็บโค้ดที่คล้ายกันหรือ README ที่คัดลอกมาไม่ได้ยืนยันว่าไฟล์ดาวน์โหลดเป็นของทางการ
 
 <div align="center">
@@ -62,7 +62,7 @@ REA เชื่อมเอเจนต์ของคุณกับเคร�
 
 ขั้นตอนตั้งค่าจะลงทะเบียน REA กับเอเจนต์และติดตั้งคำแนะนำการทำงานที่ตรงกัน การวิเคราะห์เนทีฟใช้ Hopper หรือ Ghidra ที่ติดตั้งอยู่แล้วได้ และขั้นตอนตั้งค่าสามารถติดตั้ง Hopper เพิ่มเติมเมื่อได้รับอนุมัติ การวิเคราะห์ JavaScript แบบสถิตไม่ต้องใช้เอนจินทั้งสองนี้
 
-> **[เยี่ยมชมเว็บไซต์ REA](https://rea.tools/th/)** เพื่อดูคำแนะนำการตั้งค่า คู่มือพร้อมภาพประกอบ และกรณีศึกษาจริง
+> **[เยี่ยมชมเว็บไซต์ REA](https://reareverse.com/th/)** เพื่อดูคำแนะนำการตั้งค่า คู่มือพร้อมภาพประกอบ และกรณีศึกษาจริง
 
 ## เริ่มต้นอย่างรวดเร็ว
 
@@ -170,25 +170,25 @@ REA ต้องใช้ Node.js 22.x (>=22.19), 24.x (>=24.11) หรือ 26
 
 ## ตัวอย่างการใช้งาน
 
-[![ภาพประกอบกรณีศึกษาการแพนเสียงใน DX-Ball บริดจ์คลิปบอร์ดของ Notion และวงแหวนกระสุนใน TH04](../assets/rea-showcases.png)](https://rea.tools/th/showcase/)
+[![ภาพประกอบกรณีศึกษาการแพนเสียงใน DX-Ball บริดจ์คลิปบอร์ดของ Notion และวงแหวนกระสุนใน TH04](../assets/rea-showcases.png)](https://reareverse.com/th/showcase/)
 
 ### DX-Ball: สร้างการคำนวณแพนเสียงขึ้นใหม่
 
 ติดตามการเรียกเสียงไปยังฟังก์ชันช่วยแปลงตำแหน่งเป็นค่าแพน ตรวจสอบคำสั่ง และแปลงโค้ดเทียมที่ยังไม่สมบูรณ์เป็น C การสร้างขึ้นใหม่นี้ผ่านการทดสอบ 3,205 กรณีเทียบกับ x86 ต้นฉบับ และสร้างไบต์ทั้ง 63 ไบต์ของฟังก์ชันที่คอมไพล์แล้วได้ตรงกัน
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/dx-ball/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/dx-ball)
+[อ่านกรณีศึกษา](https://reareverse.com/th/showcase/dx-ball/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: ติดตามบริดจ์คลิปบอร์ดของ Electron
 
 ค้นหา API คลิปบอร์ดของ renderer ติดตามผ่าน preload และ IPC ไปยังโปรเซสหลัก แล้วตรวจสอบรูปแบบคลิปบอร์ดที่มีข้อมูลการจัดรูปแบบ
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/notion/)
+[อ่านกรณีศึกษา](https://reareverse.com/th/showcase/notion/)
 
 ### TH04: กู้คืนการคำนวณวงแหวนกระสุนของ DOS
 
 ตรวจสอบคำสั่ง 16 บิตของเกมต้นฉบับบน PC-98 กู้คืนการคำนวณมุมคงที่และมุมเล็งเป้าหมาย แล้วเปรียบเทียบ C++ ที่สร้างขึ้นใหม่กับผลลัพธ์จากคอมไพเลอร์ในยุคนั้น
 
-[อ่านกรณีศึกษา](https://rea.tools/th/showcase/th04/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/th04)
+[อ่านกรณีศึกษา](https://reareverse.com/th/showcase/th04/) · [รีโพซิทอรีการสร้างขึ้นใหม่](https://github.com/N0zoM1z0/th04)
 
 หากคุณใช้ REA กับสิ่งที่น่าสนใจ เราอยากเห็นผลงานของคุณ แบ่งปันกรณีของคุณผ่าน [issue](https://github.com/morluto/rea/issues) หรือ [pull request](https://github.com/morluto/rea/pulls) พร้อมระบุเป้าหมาย คำถามของคุณ REA ช่วยอย่างไร และสิ่งที่คุณค้นพบ
 
@@ -259,7 +259,7 @@ npx rea-agents@latest setup
 
 ## เอกสาร
 
-เริ่มจาก[คู่มือพร้อมตัวอย่าง](https://rea.tools/th/guides/) บนเว็บไซต์ สำหรับตัวเลือก ข้อกำหนดเบื้องต้น และสัญญาผลลัพธ์ที่แน่นอน:
+เริ่มจาก[คู่มือพร้อมตัวอย่าง](https://reareverse.com/th/guides/) บนเว็บไซต์ สำหรับตัวเลือก ข้อกำหนดเบื้องต้น และสัญญาผลลัพธ์ที่แน่นอน:
 
 - [การติดตั้งและตั้งค่า](../installation.md): การลงทะเบียนเอเจนต์ การตั้งค่าผู้ให้บริการ การอัปเดต และการถอนการติดตั้ง
 - [ความพร้อมใช้งานและการแก้ไขปัญหา](../installation.md#check-readiness-for-your-task): ตรวจวินิจฉัยเอเจนต์หรือเอนจินวิเคราะห์หนึ่งตัว

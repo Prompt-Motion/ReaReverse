@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[웹사이트](https://rea.tools/ko/) · [가이드](https://rea.tools/ko/guides/) · [사례](https://rea.tools/ko/showcase/)**
+**[웹사이트](https://reareverse.com/ko/) · [가이드](https://reareverse.com/ko/guides/) · [사례](https://reareverse.com/ko/showcase/)**
 
 [빠른 시작](#빠른-시작) · [REA의 작동 방식](#rea의-작동-방식) · [분석할 수 있는 대상](#분석할-수-있는-대상) · [사례](#사례) · [자주 묻는 질문](#자주-묻는-질문) · [문서](#문서)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA 공식 배포처: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA 공식 배포처: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 이 공식 배포처에서 제공하는 설치 및 릴리스 링크를 이용하세요. 비슷한 저장소 이름이나 복사된 README만으로는 공식 배포 파일인지 확인할 수 없습니다.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA는 에이전트를 분석 도구에 연결해 네이티브 바이너리, Jav
 
 설정 과정은 에이전트에 REA를 등록하고 해당 버전에 맞는 워크플로 지침을 설치합니다. 네이티브 분석에는 기존 Hopper, Ghidra 또는 IDA 설치를 사용할 수 있습니다. 승인하면 설정 과정에서 Hopper를 설치할 수도 있습니다. 정적 JavaScript 분석에는 네이티브 분석 엔진이 필요하지 않습니다.
 
-> **[REA 웹사이트](https://rea.tools/ko/)**에서 설정 방법, 그림으로 설명한 가이드, 실제 사례를 확인하세요.
+> **[REA 웹사이트](https://reareverse.com/ko/)**에서 설정 방법, 그림으로 설명한 가이드, 실제 사례를 확인하세요.
 
 ## 빠른 시작
 
@@ -179,26 +179,26 @@ REA에는 Node.js 22.x(>=22.19), 24.x(>=24.11) 또는 26+와 npm이 필요합니
 
 ## 사례
 
-[![DX-Ball 사운드 패닝, Notion 클립보드 브리지, TH04 탄환 고리 사례를 보여 주는 그림](../assets/rea-showcases.png)](https://rea.tools/ko/showcase/)
+[![DX-Ball 사운드 패닝, Notion 클립보드 브리지, TH04 탄환 고리 사례를 보여 주는 그림](../assets/rea-showcases.png)](https://reareverse.com/ko/showcase/)
 
 ### DX-Ball: 사운드 패닝 계산 재구현
 
 사운드 호출에서 위치를 패닝 값으로 변환하는 보조 함수까지 추적하고, 명령을 검사하여 불완전한 의사 코드를 C로 옮깁니다. 재구현한 코드는 원본 x86에 대한 3,205개 테스트 케이스를 통과했으며, 컴파일된 함수의 63바이트 전체를 재현합니다.
 
-[사례 읽기](https://rea.tools/ko/showcase/dx-ball/) ·
+[사례 읽기](https://reareverse.com/ko/showcase/dx-ball/) ·
 [재구현 저장소](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: Electron 클립보드 브리지 추적
 
 렌더러의 클립보드 API를 찾고, preload와 IPC를 거쳐 메인 프로세스까지 추적한 뒤, 서식 있는 클립보드 형식을 검사합니다.
 
-[사례 읽기](https://rea.tools/ko/showcase/notion/)
+[사례 읽기](https://reareverse.com/ko/showcase/notion/)
 
 ### TH04: DOS 원형 탄막 계산 복원
 
 원본 PC-98 게임의 16비트 명령을 검사하고 고정 각도와 조준 각도의 계산을 복원합니다. 재구현한 C++를 당시 컴파일러의 출력과 비교합니다.
 
-[사례 읽기](https://rea.tools/ko/showcase/th04/) ·
+[사례 읽기](https://reareverse.com/ko/showcase/th04/) ·
 [재구현 저장소](https://github.com/N0zoM1z0/th04)
 
 REA로 흥미로운 대상을 분석했다면 알려 주세요. [issue](https://github.com/morluto/rea/issues) 또는 [pull request](https://github.com/morluto/rea/pulls)에 대상, 조사하려던 질문, REA가 어떻게 도움이 되었는지, 무엇을 알아냈는지를 담아 공유하세요.
@@ -270,7 +270,7 @@ npx rea-agents@latest setup
 
 ## 문서
 
-웹사이트의 [실습 가이드](https://rea.tools/ko/guides/)부터 읽어 보세요. 정확한 옵션, 사전 요구 사항, 결과 계약은 다음 문서를 참고하세요.
+웹사이트의 [실습 가이드](https://reareverse.com/ko/guides/)부터 읽어 보세요. 정확한 옵션, 사전 요구 사항, 결과 계약은 다음 문서를 참고하세요.
 
 - [설치 및 설정](../installation.md): 에이전트 등록, 제공자 설정, 업데이트, 제거.
 - [준비 상태 확인 및 문제 해결](../installation.md#check-readiness-for-your-task): 특정 에이전트 또는 분석 엔진 진단.

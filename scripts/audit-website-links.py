@@ -93,7 +93,7 @@ def external_links(root):
 
     def add(value, source):
         url = urlsplit(value)
-        if url.scheme in ("http", "https") and url.hostname not in ("rea.tools", "localhost", "127.0.0.1", "::1"):
+        if url.scheme in ("http", "https") and url.hostname not in ("reareverse.com", "localhost", "127.0.0.1", "::1"):
             references.setdefault(value, []).append(str(source.relative_to(root)))
 
     class Links(HTMLParser):

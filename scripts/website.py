@@ -16,7 +16,7 @@ from textwrap import indent
 from urllib.parse import quote, urlsplit
 
 
-SITE_ORIGIN = "https://rea.tools"
+SITE_ORIGIN = "https://reareverse.com"
 NOTES_FIXTURES = {"examples/notes-electron/index.html", "examples/notes-web/index.html"}
 NAVIGATION = (
     ("Get started", "get-started/"),

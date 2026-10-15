@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Sito web](https://rea.tools/it/) · [Guide](https://rea.tools/it/guides/) · [Showcase](https://rea.tools/it/showcase/)**
+**[Sito web](https://reareverse.com/it/) · [Guide](https://reareverse.com/it/guides/) · [Showcase](https://reareverse.com/it/showcase/)**
 
 [Avvio rapido](#avvio-rapido) · [Come funziona REA](#come-funziona-rea) · [Cosa puoi analizzare](#cosa-puoi-analizzare) · [Showcase](#showcase) · [FAQ](#faq) · [Strumenti GNU objdump e Rizin](../reverse-engineering-tools.md) · [Documentazione](#documentazione)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> Fonti ufficiali di REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Fonti ufficiali di REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Segui i link di installazione e delle versioni pubblicate da queste fonti ufficiali. Un nome di repository simile o un README copiato non dimostra che un download sia ufficiale.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA collega il tuo agente a strumenti per ispezionare binari nativi, app JavaScr
 
 La configurazione registra REA con il tuo agente e installa le istruzioni di workflow corrispondenti. L'analisi nativa può usare un'installazione esistente di Hopper, Ghidra o IDA; la configurazione può installare opzionalmente Hopper previa approvazione. L'analisi statica JavaScript non richiede alcun motore di analisi nativo.
 
-> **[Visita il sito web di REA](https://rea.tools/it/)** per istruzioni di configurazione, guide illustrate e veri casi studio.
+> **[Visita il sito web di REA](https://reareverse.com/it/)** per istruzioni di configurazione, guide illustrate e veri casi studio.
 
 ## Avvio rapido
 
@@ -174,25 +174,25 @@ I formati nativi e il supporto host variano in base al provider. Vedi la [config
 
 ## Showcase
 
-[![Illustrazioni degli showcase del sound-pan di DX-Ball, del clipboard-bridge di Notion e dell'anello di proiettili di TH04](../assets/rea-showcases.png)](https://rea.tools/it/showcase/)
+[![Illustrazioni degli showcase del sound-pan di DX-Ball, del clipboard-bridge di Notion e dell'anello di proiettili di TH04](../assets/rea-showcases.png)](https://reareverse.com/it/showcase/)
 
 ### DX-Ball: ricostruisci un calcolo sound-pan
 
 Segui una chiamata sonora fino al suo helper posizione-to-pan, ispeziona le istruzioni e trasforma il pseudocodice incompleto in C. La ricostruzione supera 3.205 casi x86 originali e riproduce tutti i 63 byte di funzione compilati.
 
-[Leggi il case study](https://rea.tools/it/showcase/dx-ball/) · [Repository di ricostruzione](https://github.com/N0zoM1z0/dx-ball)
+[Leggi il case study](https://reareverse.com/it/showcase/dx-ball/) · [Repository di ricostruzione](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: traccia il clipboard bridge di Electron
 
 Trova l'API clipboard del renderer, seguila attraverso preload e IPC fino al processo principale e ispeziona il formato rich clipboard.
 
-[Leggi il case study](https://rea.tools/it/showcase/notion/)
+[Leggi il case study](https://reareverse.com/it/showcase/notion/)
 
 ### TH04: recupera un calcolo dell'anello di proiettili DOS
 
 Ispeziona le istruzioni a 16 bit del gioco PC-98 originale, recupera i calcoli dell'angolo fisso e mirato e confronta il C++ ricostruito con l'output del compilatore storico.
 
-[Leggi il case study](https://rea.tools/it/showcase/th04/) · [Repository di ricostruzione](https://github.com/N0zoM1z0/th04)
+[Leggi il case study](https://reareverse.com/it/showcase/th04/) · [Repository di ricostruzione](https://github.com/N0zoM1z0/th04)
 
 Se hai usato REA su qualcosa di interessante, ci piacerebbe vederlo. Condividi il tuo caso in una [issue](https://github.com/morluto/rea/issues) o in una [pull request](https://github.com/morluto/rea/pulls), includendo il bersaglio, la tua domanda, come REA ti ha aiutato e cosa hai scoperto.
 
@@ -263,7 +263,7 @@ Se stai usando un agente, completa l'[aggiornamento della configurazione](#aggio
 
 ## Documentazione
 
-Inizia dalle [guide pratiche](https://rea.tools/it/guides/) del sito web. Per opzioni esatte, prerequisiti e contratti dei risultati:
+Inizia dalle [guide pratiche](https://reareverse.com/it/guides/) del sito web. Per opzioni esatte, prerequisiti e contratti dei risultati:
 
 - [Installazione e configurazione](../installation.md): registrazione agente, configurazione provider, aggiornamenti e disinstallazione.
 - [Pronto all'uso e risoluzione dei problemi](../installation.md#check-readiness-for-your-task): diagnostica un agente o un motore di analisi.

@@ -29,11 +29,11 @@ const README_LINK_DRIFT_MUTATIONS = [
     "(../installation.md#supported-agents)",
     "(../installation.md#missing-agents)",
   ],
-  ["https://rea.tools/zh-CN/guides/", "https://rea.tools/zh-CN/missing/"],
-  ["https://rea.tools/zh-CN/guides/", "https://rea.tools/zh-TW/guides/"],
+  ["https://reareverse.com/zh-CN/guides/", "https://reareverse.com/zh-CN/missing/"],
+  ["https://reareverse.com/zh-CN/guides/", "https://reareverse.com/zh-TW/guides/"],
   [
-    "https://rea.tools/zh-CN/guides/",
-    "https://rea.tools/zh-CN/guides/?other=1",
+    "https://reareverse.com/zh-CN/guides/",
+    "https://reareverse.com/zh-CN/guides/?other=1",
   ],
   [
     'src="../assets/rea-hopper-analysis.png"',

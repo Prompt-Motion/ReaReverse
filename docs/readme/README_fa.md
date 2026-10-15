@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55" /></a>
 
-**[وب‌سایت](https://rea.tools/fa/) · [راهنماها](https://rea.tools/fa/guides/) · [نمونه‌های عملی](https://rea.tools/fa/showcase/)**
+**[وب‌سایت](https://reareverse.com/fa/) · [راهنماها](https://reareverse.com/fa/guides/) · [نمونه‌های عملی](https://reareverse.com/fa/showcase/)**
 
 [شروع سریع](#شروع-سریع) · [REA چگونه کار می‌کند؟](#rea-چگونه-کار-می‌کند) · [چه چیزهایی را میتوان تحلیل کرد؟](#چه-چیزهایی-را-می‌توان-تحلیل-کرد) · [نمونه‌های عملی](#نمونه‌های-عملی) · [پرسش‌های متداول](#پرسش‌های-متداول) · [ابزارهای GNU objdump و Rizin](../reverse-engineering-tools.md) · [مستندات](#مستندات)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > از پیوندهای نصب و انتشار در این منابع رسمی استفاده کنید. نام مشابه مخزن یا README کپی‌شده ثابت نمی‌کند که فایل دانلودی رسمی است.
 
 <div align="center" dir="rtl">
@@ -54,7 +54,7 @@ REA ایجنت شما را به ابزارهایی برای بررسی باین�
 
 فرایند راه‌اندازی، REA را در ایجنت شما ثبت می‌کند و دستورالعمل‌های گردش‌کار متناظر را نصب می‌کند. تحلیل بومی می‌تواند از نصب موجود Hopper یا Ghidra استفاده کند؛ همچنین راه‌اندازی می‌تواند با تأیید شما Hopper را به‌صورت اختیاری نصب کند. تحلیل ایستای JavaScript به هیچ‌یک از این موتورهای تحلیل نیاز ندارد.
 
-> برای دستورالعمل‌های راه‌اندازی، راهنماهای تصویری و مطالعات موردی واقعی، **[به وب‌سایت REA مراجعه کنید](https://rea.tools/fa/)**.
+> برای دستورالعمل‌های راه‌اندازی، راهنماهای تصویری و مطالعات موردی واقعی، **[به وب‌سایت REA مراجعه کنید](https://reareverse.com/fa/)**.
 
 ## شروع سریع
 
@@ -162,25 +162,25 @@ REA به Node.js 22.x (>=22.19)، 24.x (>=24.11) یا 26+، به‌همراه np
 
 ## نمونه‌های عملی
 
-[![تصویرهایی از نمونه‌های پنینگ صدای DX-Ball، پل کلیپ‌بورد Notion و حلقهٔ گلوله‌های TH04](../assets/rea-showcases.png)](https://rea.tools/fa/showcase/)
+[![تصویرهایی از نمونه‌های پنینگ صدای DX-Ball، پل کلیپ‌بورد Notion و حلقهٔ گلوله‌های TH04](../assets/rea-showcases.png)](https://reareverse.com/fa/showcase/)
 
 ### DX-Ball: بازسازی محاسبهٔ موقعیت استریوی صدا
 
 یک فراخوانی صوتی را تا تابع کمکی تبدیل موقعیت به pan دنبال کنید، دستورالعمل‌ها را بررسی کنید و شبه‌کد ناقص را به C تبدیل کنید. بازسازی حاصل، هر ۳٬۲۰۵ مورد آزمایش x86 اصلی را با موفقیت پشت سر می‌گذارد و هر ۶۳ بایت تابع کامپایل‌شده را دقیقاً بازتولید می‌کند.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/dx-ball/) · [مخزن بازسازی](https://github.com/N0zoM1z0/dx-ball)
+[مطالعهٔ موردی](https://reareverse.com/fa/showcase/dx-ball/) · [مخزن بازسازی](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: ردیابی پل کلیپ‌بورد Electron
 
 API کلیپ‌بورد در renderer را پیدا کنید، مسیر آن را از preload و IPC تا فرایند اصلی دنبال کنید و قالب غنی کلیپ‌بورد را بررسی کنید.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/notion/)
+[مطالعهٔ موردی](https://reareverse.com/fa/showcase/notion/)
 
 ### TH04: بازیابی محاسبهٔ حلقهٔ گلوله در DOS
 
 دستورالعمل‌های ۱۶بیتی بازی اصلی PC-98 را بررسی کنید، محاسبات زاویهٔ ثابت و هدف‌گیری‌شده را بازیابی کنید و کد C++ بازسازی‌شده را با خروجی کامپایلر تاریخی مقایسه کنید.
 
-[مطالعهٔ موردی](https://rea.tools/fa/showcase/th04/) · [مخزن بازسازی](https://github.com/N0zoM1z0/th04)
+[مطالعهٔ موردی](https://reareverse.com/fa/showcase/th04/) · [مخزن بازسازی](https://github.com/N0zoM1z0/th04)
 
 اگر از REA برای بررسی موضوع جالبی استفاده کرده‌اید، خوشحال می‌شویم آن را به اشتراک بگذارید. یک [issue](https://github.com/morluto/rea/issues) یا [pull request](https://github.com/morluto/rea/pulls) ثبت کنید و هدف، پرسش خود، نقش REA و یافته‌هایتان را توضیح دهید.
 
@@ -244,7 +244,7 @@ npx rea-agents@latest setup
 
 ## مستندات
 
-از [راهنماهای عملی وب‌سایت](https://rea.tools/fa/guides/) شروع کنید. برای گزینه‌های دقیق، پیش‌نیازها و قراردادهای خروجی:
+از [راهنماهای عملی وب‌سایت](https://reareverse.com/fa/guides/) شروع کنید. برای گزینه‌های دقیق، پیش‌نیازها و قراردادهای خروجی:
 
 - [نصب و راه‌اندازی](../installation.md): ثبت ایجنت، پیکربندی ارائه‌دهنده، به‌روزرسانی و حذف نصب.
 - [آمادگی و رفع اشکال](../installation.md#check-readiness-for-your-task): عیب‌یابی یک ایجنت یا موتور تحلیل.

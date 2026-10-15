@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Сайт](https://rea.tools/ru/) · [Руководства](https://rea.tools/ru/guides/) · [Примеры](https://rea.tools/ru/showcase/)**
+**[Сайт](https://reareverse.com/ru/) · [Руководства](https://reareverse.com/ru/guides/) · [Примеры](https://reareverse.com/ru/showcase/)**
 
 [Быстрый старт](#быстрый-старт) · [Как работает REA](#как-работает-rea) · [Что можно анализировать](#что-можно-анализировать) · [Примеры](#примеры) · [Частые вопросы](#частые-вопросы) · [Инструменты GNU objdump и Rizin](../reverse-engineering-tools.md) · [Документация](#документация)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> Официальные источники REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Официальные источники REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Используйте ссылки на установку и выпуски из этих официальных источников. Похожее название репозитория или скопированный README не подтверждают, что скачиваемый файл является официальным.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA подключает вашего агента к инструментам �
 
 Настройка регистрирует REA в вашем агенте и устанавливает соответствующие инструкции по работе. Для нативного анализа можно использовать уже установленный Hopper или Ghidra; настройка также может установить Hopper с вашего согласия. Для статического анализа JavaScript не нужен ни один из этих движков.
 
-> **[Посетите сайт REA](https://rea.tools/ru/)**: там есть инструкции по настройке, иллюстрированные руководства и реальные исследования.
+> **[Посетите сайт REA](https://reareverse.com/ru/)**: там есть инструкции по настройке, иллюстрированные руководства и реальные исследования.
 
 ## Быстрый старт
 
@@ -170,25 +170,25 @@ REA требует Node.js 22.x (>=22.19), 24.x (>=24.11) или 26+, а так�
 
 ## Примеры
 
-[![Иллюстрации примеров панорамирования звука в DX-Ball, моста буфера обмена Notion и кольца пуль в TH04](../assets/rea-showcases.png)](https://rea.tools/ru/showcase/)
+[![Иллюстрации примеров панорамирования звука в DX-Ball, моста буфера обмена Notion и кольца пуль в TH04](../assets/rea-showcases.png)](https://reareverse.com/ru/showcase/)
 
 ### DX-Ball: восстановление расчёта звуковой панорамы
 
 Проследите звуковой вызов до функции, преобразующей координату в значение панорамы, изучите инструкции и превратите неполный псевдокод в C. Восстановленная реализация проходит 3 205 тестов с исходным x86-кодом и воспроизводит все 63 байта скомпилированной функции.
 
-[Прочитать исследование](https://rea.tools/ru/showcase/dx-ball/) · [Репозиторий реконструкции](https://github.com/N0zoM1z0/dx-ball)
+[Прочитать исследование](https://reareverse.com/ru/showcase/dx-ball/) · [Репозиторий реконструкции](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: исследование моста буфера обмена Electron
 
 Найдите API буфера обмена в процессе рендеринга, проследите его через preload и IPC до основного процесса и изучите формат буфера обмена с форматированием.
 
-[Прочитать исследование](https://rea.tools/ru/showcase/notion/)
+[Прочитать исследование](https://reareverse.com/ru/showcase/notion/)
 
 ### TH04: восстановление расчёта кольца пуль в DOS
 
 Изучите 16-битные инструкции оригинальной игры для PC-98, восстановите расчёты фиксированных и прицельных углов и сравните восстановленный C++ с выводом компилятора того времени.
 
-[Прочитать исследование](https://rea.tools/ru/showcase/th04/) · [Репозиторий реконструкции](https://github.com/N0zoM1z0/th04)
+[Прочитать исследование](https://reareverse.com/ru/showcase/th04/) · [Репозиторий реконструкции](https://github.com/N0zoM1z0/th04)
 
 Если вы исследовали с REA что-то интересное, поделитесь результатом. Создайте [issue](https://github.com/morluto/rea/issues) или [pull request](https://github.com/morluto/rea/pulls) и укажите цель, ваш вопрос, как помог REA и что удалось узнать.
 
@@ -259,7 +259,7 @@ npx rea-agents@latest setup
 
 ## Документация
 
-Начните с [практических руководств](https://rea.tools/ru/guides/) на сайте. Точные параметры, требования и контракты результатов описаны здесь:
+Начните с [практических руководств](https://reareverse.com/ru/guides/) на сайте. Точные параметры, требования и контракты результатов описаны здесь:
 
 - [Установка и настройка](../installation.md): регистрация агентов, настройка провайдеров, обновление и удаление.
 - [Готовность и устранение неполадок](../installation.md#check-readiness-for-your-task): диагностика конкретного агента или движка анализа.

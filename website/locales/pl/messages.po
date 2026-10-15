@@ -11445,7 +11445,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13709,7 +13709,7 @@ msgstr "Twój agent programistyczny"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14793,7 +14793,7 @@ msgstr "Skopiuj monit o rekonstrukcję gry"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -16270,12 +16270,12 @@ msgstr "Współtwórcy: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Pobierz https://rea.tools/examples/notes-example.zip do "
+#~ "{ph0}›{ph1}{ph2}Pobierz https://reareverse.com/examples/notes-example.zip do "
 #~ "nowego przykładowego folderu i rozpakuj go. Użycie REA aby dowiedzieć się, "
 #~ "co się stanie, gdy kliknę Eksportuj notatki. Pokaż, gdzie notatki.zapisywany"
 #~ " jest csv, które pola zawiera oraz odpowiednie pliki i "
@@ -16318,10 +16318,10 @@ msgstr "Współtwórcy: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Użycie REA aby sprawdzić https://rea.tools/. Sklonuj dla "
+#~ "{ph0}›{ph1}{ph2}Użycie REA aby sprawdzić https://reareverse.com/. Sklonuj dla "
 #~ "mnie tę stronę.{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"

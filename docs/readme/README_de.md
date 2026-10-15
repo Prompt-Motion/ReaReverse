@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Website](https://rea.tools/de/) · [Anleitungen](https://rea.tools/de/guides/) · [Fallstudien](https://rea.tools/de/showcase/)**
+**[Website](https://reareverse.com/de/) · [Anleitungen](https://reareverse.com/de/guides/) · [Fallstudien](https://reareverse.com/de/showcase/)**
 
 [Schnellstart](#schnellstart) · [So funktioniert REA](#so-funktioniert-rea) · [Was du analysieren kannst](#was-du-analysieren-kannst) · [Fallstudien](#fallstudien) · [Häufige Fragen](#häufige-fragen) · [GNU-objdump- und Rizin-Tools](../reverse-engineering-tools.md) · [Dokumentation](#dokumentation)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> Offizielle Quellen für REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Offizielle Quellen für REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Folge den Installations- und Release-Links aus diesen offiziellen Quellen. Ein ähnlicher Repository-Name oder eine kopierte README belegt nicht, dass ein Download offiziell ist.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA verbindet deinen Agenten mit Werkzeugen zum Untersuchen nativer Binärdateie
 
 Die Einrichtung registriert REA bei deinem Agenten und installiert passende Workflow-Anweisungen. Für native Analysen kannst du eine vorhandene Hopper- oder Ghidra-Installation verwenden. Mit deiner Zustimmung kann die Einrichtung auch Hopper installieren. Statische JavaScript-Analysen benötigen keines der beiden Programme.
 
-> **[Besuche die REA-Website](https://rea.tools/de/)** für Einrichtungshinweise, bebilderte Anleitungen und echte Fallstudien.
+> **[Besuche die REA-Website](https://reareverse.com/de/)** für Einrichtungshinweise, bebilderte Anleitungen und echte Fallstudien.
 
 ## Schnellstart
 
@@ -170,25 +170,25 @@ Native Formate und unterstützte Hostsysteme unterscheiden sich je nach Provider
 
 ## Fallstudien
 
-[![Illustrationen der Fallstudien zu DX-Balls Klangbalance, Notions Zwischenablage-Brücke und TH04s Geschossring](../assets/rea-showcases.png)](https://rea.tools/de/showcase/)
+[![Illustrationen der Fallstudien zu DX-Balls Klangbalance, Notions Zwischenablage-Brücke und TH04s Geschossring](../assets/rea-showcases.png)](https://reareverse.com/de/showcase/)
 
 ### DX-Ball: Eine Stereo-Panning-Berechnung rekonstruieren
 
 Verfolge einen Sound-Aufruf zur Hilfsfunktion, die Positionen in Panning-Werte umrechnet, untersuche die Anweisungen und überführe unvollständigen Pseudocode in C. Die Rekonstruktion besteht 3.205 Tests mit dem ursprünglichen x86-Code und reproduziert alle 63 Bytes der kompilierten Funktion.
 
-[Fallstudie lesen](https://rea.tools/de/showcase/dx-ball/) · [Rekonstruktionsrepository](https://github.com/N0zoM1z0/dx-ball)
+[Fallstudie lesen](https://reareverse.com/de/showcase/dx-ball/) · [Rekonstruktionsrepository](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: Die Electron-Zwischenablagebrücke verfolgen
 
 Finde die Zwischenablage-API des Renderers, verfolge sie über preload und IPC bis zum Hauptprozess und untersuche das Zwischenablageformat samt Formatierungsdaten.
 
-[Fallstudie lesen](https://rea.tools/de/showcase/notion/)
+[Fallstudie lesen](https://reareverse.com/de/showcase/notion/)
 
 ### TH04: Eine DOS-Geschossring-Berechnung wiederherstellen
 
 Untersuche die 16-Bit-Anweisungen des ursprünglichen PC-98-Spiels, rekonstruiere die festen und zielgerichteten Winkelberechnungen und vergleiche das rekonstruierte C++ mit der Ausgabe des damaligen Compilers.
 
-[Fallstudie lesen](https://rea.tools/de/showcase/th04/) · [Rekonstruktionsrepository](https://github.com/N0zoM1z0/th04)
+[Fallstudie lesen](https://reareverse.com/de/showcase/th04/) · [Rekonstruktionsrepository](https://github.com/N0zoM1z0/th04)
 
 Wenn du mit REA etwas Interessantes untersucht hast, würden wir es gern sehen. Teile deine Fallstudie in einem [Issue](https://github.com/morluto/rea/issues) oder [Pull Request](https://github.com/morluto/rea/pulls) und beschreibe das Ziel, deine Frage, wie REA geholfen hat und was du herausgefunden hast.
 
@@ -259,7 +259,7 @@ Wenn du einen Agenten verwendest, schließe die [Aktualisierung der Einrichtung]
 
 ## Dokumentation
 
-Beginne mit den [praxisnahen Anleitungen](https://rea.tools/de/guides/) auf der Website. Genaue Optionen, Voraussetzungen und Ergebniskontrakte findest du hier:
+Beginne mit den [praxisnahen Anleitungen](https://reareverse.com/de/guides/) auf der Website. Genaue Optionen, Voraussetzungen und Ergebniskontrakte findest du hier:
 
 - [Installation und Einrichtung](../installation.md): Agentenregistrierung, Provider-Konfiguration, Updates und Deinstallation.
 - [Bereitschaft und Fehlerbehebung](../installation.md#check-readiness-for-your-task): Diagnose eines bestimmten Agenten oder einer Analyse-Engine.

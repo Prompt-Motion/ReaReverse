@@ -11486,7 +11486,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13754,7 +13754,7 @@ msgstr "Agen pemrogramanmu"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14839,7 +14839,7 @@ msgstr "Salin prompt rekonstruksi game"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -16318,12 +16318,12 @@ msgstr "Kontributor: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Unduh https://rea.tools/examples/notes-example.zip ke dalam "
+#~ "{ph0}›{ph1}{ph2}Unduh https://reareverse.com/examples/notes-example.zip ke dalam "
 #~ "folder contoh baru dan buka kemasannya. Gunakan REA untuk menemukan apa yang"
 #~ " terjadi ketika saya mengklik Ekspor catatan. Tunjukkan di mana catatan.csv "
 #~ "ditulis, bidang mana yang dikandungnya, dan file serta baris yang "
@@ -16366,10 +16366,10 @@ msgstr "Kontributor: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Gunakan REA untuk memeriksa https://rea.tools/. Mengkloning "
+#~ "{ph0}›{ph1}{ph2}Gunakan REA untuk memeriksa https://reareverse.com/. Mengkloning "
 #~ "situs web ini untuk saya.{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"

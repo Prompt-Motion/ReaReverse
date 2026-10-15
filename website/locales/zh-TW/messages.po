@@ -10536,7 +10536,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -12489,7 +12489,7 @@ msgstr "你的程式開發助手"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13473,7 +13473,7 @@ msgstr "複製遊戲重建提示"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -14794,12 +14794,12 @@ msgstr "貢獻者: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}下載 https://rea.tools/examples/notes-example.zip "
+#~ "{ph0}›{ph1}{ph2}下載 https://reareverse.com/examples/notes-example.zip "
 #~ "到一個新的示例資料夾中並解壓縮。 使用方法 REA 要查詢當我單擊匯出筆記時會發生什麼。 "
 #~ "顯示註釋的位置。csv被寫入，它包含哪些欄位，以及相關的檔案和行。{ph3}{ph4}{ph5}"
 
@@ -14838,10 +14838,10 @@ msgstr "貢獻者: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}使用方法 REA 檢查 https://rea.tools/. 為我克隆這個網站。{ph3}{ph4}{ph5}"
+#~ "{ph0}›{ph1}{ph2}使用方法 REA 檢查 https://reareverse.com/. 為我克隆這個網站。{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"
 #~ msgid "code[21] = 55"

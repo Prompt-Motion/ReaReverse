@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Strona internetowa](https://rea.tools/pl/) · [Przewodniki](https://rea.tools/pl/guides/) · [Przykłady zastosowań](https://rea.tools/pl/showcase/)**
+**[Strona internetowa](https://reareverse.com/pl/) · [Przewodniki](https://reareverse.com/pl/guides/) · [Przykłady zastosowań](https://reareverse.com/pl/showcase/)**
 
 [Szybki start](#szybki-start) · [Jak działa REA](#jak-działa-rea) · [Co możesz analizować](#co-możesz-analizować) · [Przykłady zastosowań](#przykłady-zastosowań) · [FAQ](#faq) · [Narzędzia GNU objdump i Rizin](../reverse-engineering-tools.md) · [Dokumentacja](#dokumentacja)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> Oficjalne źródła REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Oficjalne źródła REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Korzystaj z odnośników do instalacji i wydań w tych oficjalnych źródłach. Podobna nazwa repozytorium lub skopiowany README nie potwierdzają, że pobierany plik jest oficjalny.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA łączy Twojego agenta z narzędziami do analizy natywnych plików binarnych
 
 Konfigurator rejestruje REA w Twoim agencie i instaluje pasujące instrukcje pracy. Analiza kodu natywnego może korzystać z istniejącej instalacji Hoppera lub Ghidry; konfigurator może też zainstalować Hoppera po uzyskaniu zgody. Statyczna analiza JavaScript nie wymaga żadnego z tych silników.
 
-> **[Odwiedź stronę REA](https://rea.tools/pl/)**, aby znaleźć instrukcje konfiguracji, ilustrowane przewodniki i rzeczywiste studia przypadków.
+> **[Odwiedź stronę REA](https://reareverse.com/pl/)**, aby znaleźć instrukcje konfiguracji, ilustrowane przewodniki i rzeczywiste studia przypadków.
 
 ## Szybki start
 
@@ -170,25 +170,25 @@ Obsługiwane formaty natywne i platformy zależą od dostawcy analizy. Zobacz [k
 
 ## Przykłady zastosowań
 
-[![Ilustracje studiów przypadku panoramowania dźwięku w DX-Ball, mostka schowka w Notion i pierścienia pocisków w TH04](../assets/rea-showcases.png)](https://rea.tools/pl/showcase/)
+[![Ilustracje studiów przypadku panoramowania dźwięku w DX-Ball, mostka schowka w Notion i pierścienia pocisków w TH04](../assets/rea-showcases.png)](https://reareverse.com/pl/showcase/)
 
 ### DX-Ball: odtworzenie obliczania panoramy dźwięku
 
 Prześledź wywołanie dźwięku do funkcji pomocniczej przeliczającej pozycję na panoramę, sprawdź instrukcje i przekształć niepełny pseudokod w C. Odtworzona implementacja przechodzi 3 205 przypadków dla oryginalnego x86 i odtwarza wszystkie 63 bajty skompilowanej funkcji.
 
-[Przeczytaj studium przypadku](https://rea.tools/pl/showcase/dx-ball/) · [Repozytorium odtworzonej implementacji](https://github.com/N0zoM1z0/dx-ball)
+[Przeczytaj studium przypadku](https://reareverse.com/pl/showcase/dx-ball/) · [Repozytorium odtworzonej implementacji](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: śledzenie mostu schowka w Electron
 
 Znajdź API schowka w procesie renderującym, prześledź je przez preload i IPC do procesu głównego, a następnie sprawdź format schowka wraz z danymi formatowania.
 
-[Przeczytaj studium przypadku](https://rea.tools/pl/showcase/notion/)
+[Przeczytaj studium przypadku](https://reareverse.com/pl/showcase/notion/)
 
 ### TH04: odtworzenie obliczania pierścienia pocisków w DOS-ie
 
 Sprawdź 16-bitowe instrukcje oryginalnej gry na PC-98, odtwórz obliczenia kątów stałych i skierowanych na cel oraz porównaj odtworzony C++ z wynikiem historycznego kompilatora.
 
-[Przeczytaj studium przypadku](https://rea.tools/pl/showcase/th04/) · [Repozytorium odtworzonej implementacji](https://github.com/N0zoM1z0/th04)
+[Przeczytaj studium przypadku](https://reareverse.com/pl/showcase/th04/) · [Repozytorium odtworzonej implementacji](https://github.com/N0zoM1z0/th04)
 
 Jeśli użyłeś REA do czegoś ciekawego, chętnie to zobaczymy. Opisz swój przypadek w [zgłoszeniu](https://github.com/morluto/rea/issues) lub [pull requeście](https://github.com/morluto/rea/pulls), podając cel analizy, pytanie, sposób, w jaki REA pomogło, i swoje ustalenia.
 
@@ -259,7 +259,7 @@ Jeśli używasz agenta, wykonaj [odświeżenie konfiguracji](#zaktualizuj-rea) i
 
 ## Dokumentacja
 
-Zacznij od [przewodników z przykładami](https://rea.tools/pl/guides/) na stronie internetowej. Dokładne opcje, wymagania wstępne i kontrakty wyników opisano tutaj:
+Zacznij od [przewodników z przykładami](https://reareverse.com/pl/guides/) na stronie internetowej. Dokładne opcje, wymagania wstępne i kontrakty wyników opisano tutaj:
 
 - [Instalacja i konfiguracja](../installation.md): rejestracja agentów, konfiguracja dostawców analizy, aktualizacje i odinstalowanie.
 - [Gotowość i rozwiązywanie problemów](../installation.md#check-readiness-for-your-task): diagnostyka jednego agenta lub silnika analizy.

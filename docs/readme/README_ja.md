@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[ウェブサイト](https://rea.tools/ja/) · [ガイド](https://rea.tools/ja/guides/) · [事例](https://rea.tools/ja/showcase/)**
+**[ウェブサイト](https://reareverse.com/ja/) · [ガイド](https://reareverse.com/ja/guides/) · [事例](https://reareverse.com/ja/showcase/)**
 
 [クイックスタート](#クイックスタート) · [REA の仕組み](#rea-の仕組み) · [分析できる対象](#分析できる対象) · [事例](#事例) · [よくある質問](#よくある質問) · [GNU objdump・Rizin ツール](../reverse-engineering-tools.md) · [ドキュメント](#ドキュメント)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA の公式配布元： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA の公式配布元： [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > インストールとリリースのリンクは、これらの公式配布元からたどってください。似たリポジトリ名やコピーされた README だけでは、公式の配布物とは確認できません。
 
 <div align="center">
@@ -62,7 +62,7 @@ REA はエージェントを分析ツールにつなぎ、ネイティブバイ�
 
 セットアップはエージェントに REA を登録し、対応するワークフローの手順をインストールします。ネイティブ分析には既存の Hopper または Ghidra を使えます。承認すれば、セットアップで Hopper をインストールすることもできます。静的な JavaScript 分析には、どちらのエンジンも必要ありません。
 
-> **[REA のウェブサイト](https://rea.tools/ja/)**で、セットアップ手順、図解ガイド、実際の事例を確認できます。
+> **[REA のウェブサイト](https://reareverse.com/ja/)**で、セットアップ手順、図解ガイド、実際の事例を確認できます。
 
 ## クイックスタート
 
@@ -170,26 +170,26 @@ REA には Node.js 22.x（>=22.19）、24.x（>=24.11）、または 26+ と npm
 
 ## 事例
 
-[![DX-Ball の音声パン、Notion のクリップボードブリッジ、TH04 の弾幕リングの事例を表すイラスト](../assets/rea-showcases.png)](https://rea.tools/ja/showcase/)
+[![DX-Ball の音声パン、Notion のクリップボードブリッジ、TH04 の弾幕リングの事例を表すイラスト](../assets/rea-showcases.png)](https://reareverse.com/ja/showcase/)
 
 ### DX-Ball：音声のパン計算を再構築する
 
 音声の呼び出しから位置をパンに変換する補助関数をたどり、命令を調べ、不完全な疑似コードを C に書き直します。再構築した実装は、元の x86 に対する 3,205 ケースの検証を通過し、コンパイル後の関数の全 63 バイトを再現しています。
 
-[事例を読む](https://rea.tools/ja/showcase/dx-ball/) ·
+[事例を読む](https://reareverse.com/ja/showcase/dx-ball/) ·
 [再構築リポジトリ](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion：Electron のクリップボードブリッジを追跡する
 
 レンダラーのクリップボード API を見つけ、preload と IPC を経由してメインプロセスまでたどり、リッチなクリップボード形式を調べます。
 
-[事例を読む](https://rea.tools/ja/showcase/notion/)
+[事例を読む](https://reareverse.com/ja/showcase/notion/)
 
 ### TH04：DOS の弾幕リングの計算を復元する
 
 元の PC-98 ゲームの 16 ビット命令を調べ、固定角度と自機を狙う角度の計算を復元し、再構築した C++ を当時のコンパイラーの出力と比較します。
 
-[事例を読む](https://rea.tools/ja/showcase/th04/) ·
+[事例を読む](https://reareverse.com/ja/showcase/th04/) ·
 [再構築リポジトリ](https://github.com/N0zoM1z0/th04)
 
 REA で興味深い対象を調べたら、ぜひ共有してください。[issue](https://github.com/morluto/rea/issues) または [pull request](https://github.com/morluto/rea/pulls) に、対象、調べたかったこと、REA がどう役立ったか、何が分かったかを記載してください。
@@ -261,7 +261,7 @@ npx rea-agents@latest setup
 
 ## ドキュメント
 
-まずはウェブサイトの[実践ガイド](https://rea.tools/ja/guides/)を参照してください。正確なオプション、前提条件、結果の契約については、以下を参照してください。
+まずはウェブサイトの[実践ガイド](https://reareverse.com/ja/guides/)を参照してください。正確なオプション、前提条件、結果の契約については、以下を参照してください。
 
 - [インストールとセットアップ](../installation.md)：エージェントの登録、プロバイダーの設定、更新、アンインストール。
 - [準備状況の確認とトラブルシューティング](../installation.md#check-readiness-for-your-task)：特定のエージェントや分析エンジンを診断。

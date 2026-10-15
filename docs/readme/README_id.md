@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Situs Web](https://rea.tools/id/) · [Panduan](https://rea.tools/id/guides/) · [Contoh Penggunaan](https://rea.tools/id/showcase/)**
+**[Situs Web](https://reareverse.com/id/) · [Panduan](https://reareverse.com/id/guides/) · [Contoh Penggunaan](https://reareverse.com/id/showcase/)**
 
 [Mulai Cepat](#mulai-cepat) · [Cara Kerja REA](#cara-kerja-rea) · [Hal yang Dapat Anda Analisis](#hal-yang-dapat-anda-analisis) · [Contoh Penggunaan](#contoh-penggunaan) · [FAQ](#faq) · [Alat GNU objdump dan Rizin](../reverse-engineering-tools.md) · [Dokumentasi](#dokumentasi)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> Sumber resmi REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> Sumber resmi REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Gunakan tautan instalasi dan rilis dari sumber resmi ini. Nama repositori yang mirip atau README yang disalin tidak membuktikan bahwa unduhan tersebut resmi.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA menghubungkan agen Anda dengan berbagai alat untuk memeriksa biner native, a
 
 Proses penyiapan mendaftarkan REA ke agen Anda dan memasang instruksi alur kerja yang sesuai. Analisis native dapat menggunakan instalasi Hopper, Ghidra, atau IDA yang sudah ada. Proses penyiapan juga dapat memasang Hopper secara opsional setelah mendapatkan persetujuan. Analisis JavaScript statis tidak memerlukan mesin analisis native.
 
-> **[Kunjungi situs web REA](https://rea.tools/id/)** untuk mendapatkan petunjuk penyiapan, panduan bergambar, dan studi kasus nyata.
+> **[Kunjungi situs web REA](https://reareverse.com/id/)** untuk mendapatkan petunjuk penyiapan, panduan bergambar, dan studi kasus nyata.
 
 ## Mulai Cepat
 
@@ -185,25 +185,25 @@ Periksa [ketersediaan rilis](../installation.md#released-package-and-main) untuk
 
 ## Contoh Penggunaan
 
-[![Ilustrasi contoh penggunaan DX-Ball sound-pan, Notion clipboard-bridge, dan TH04 bullet-ring](../assets/rea-showcases.png)](https://rea.tools/id/showcase/)
+[![Ilustrasi contoh penggunaan DX-Ball sound-pan, Notion clipboard-bridge, dan TH04 bullet-ring](../assets/rea-showcases.png)](https://reareverse.com/id/showcase/)
 
 ### DX-Ball: merekonstruksi perhitungan sound-pan
 
 Ikuti pemanggilan suara hingga ke fungsi pembantu yang mengubah posisi menjadi nilai pan, periksa instruksinya, lalu ubah pseudocode yang belum lengkap menjadi C. Hasil rekonstruksi tersebut lolos pada 3.205 kasus x86 asli dan mereproduksi seluruh 63 byte fungsi hasil kompilasi.
 
-[Baca studi kasus](https://rea.tools/id/showcase/dx-ball/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/dx-ball)
+[Baca studi kasus](https://reareverse.com/id/showcase/dx-ball/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: menelusuri jembatan clipboard Electron
 
 Temukan API clipboard pada renderer, telusuri jalurnya melalui preload dan IPC hingga ke proses utama, lalu periksa format clipboard kaya.
 
-[Baca studi kasus](https://rea.tools/id/showcase/notion/)
+[Baca studi kasus](https://reareverse.com/id/showcase/notion/)
 
 ### TH04: memulihkan perhitungan bullet-ring DOS
 
 Periksa instruksi 16-bit dari gim PC-98 asli, pulihkan perhitungan sudut tetap dan sudut yang diarahkan, lalu bandingkan C++ hasil rekonstruksi dengan keluaran historis kompiler.
 
-[Baca studi kasus](https://rea.tools/id/showcase/th04/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/th04)
+[Baca studi kasus](https://reareverse.com/id/showcase/th04/) · [Repositori rekonstruksi](https://github.com/N0zoM1z0/th04)
 
 Jika Anda telah menggunakan REA untuk menganalisis sesuatu yang menarik, kami ingin melihat hasilnya. Bagikan kasus Anda melalui [issue](https://github.com/morluto/rea/issues) atau [pull request](https://github.com/morluto/rea/pulls), sertakan target, pertanyaan Anda, bagaimana REA membantu, dan apa yang Anda temukan.
 
@@ -282,7 +282,7 @@ Coba kembali tugas yang sama. Jika masalah masih terjadi, [buat issue](https://g
 
 ## Dokumentasi
 
-Mulailah dengan [panduan praktik di situs web](https://rea.tools/id/guides/).
+Mulailah dengan [panduan praktik di situs web](https://reareverse.com/id/guides/).
 
 Untuk mengetahui opsi, prasyarat, dan kontrak hasil secara tepat:
 

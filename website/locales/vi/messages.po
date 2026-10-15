@@ -11425,7 +11425,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13671,7 +13671,7 @@ msgstr "Trợ lý AI lập trình của bạn"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14746,7 +14746,7 @@ msgstr "Sao chép lời nhắc tái thiết trò chơi"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -16211,12 +16211,12 @@ msgstr "Người đóng góp: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Tải về https://rea.tools/examples/notes-example.zip vào một "
+#~ "{ph0}›{ph1}{ph2}Tải về https://reareverse.com/examples/notes-example.zip vào một "
 #~ "thư mục ví dụ mới và giải nén nó. Sử dụng REA để tìm những gì xảy ra khi tôi"
 #~ " nhấp Vào xuất ghi chú. Hiển thị nơi ghi chú.csv được viết, trường nào chứa "
 #~ "và các tệp và dòng có liên quan.{ph3}{ph4}{ph5}"
@@ -16258,10 +16258,10 @@ msgstr "Người đóng góp: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Sử dụng REA để kiểm tra https://rea.tools/. Sao chép trang "
+#~ "{ph0}›{ph1}{ph2}Sử dụng REA để kiểm tra https://reareverse.com/. Sao chép trang "
 #~ "web này cho tôi.{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"

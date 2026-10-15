@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[الموقع](https://rea.tools/ar/) · [الأدلة](https://rea.tools/ar/guides/) · [دراسات الحالة](https://rea.tools/ar/showcase/)**
+**[الموقع](https://reareverse.com/ar/) · [الأدلة](https://reareverse.com/ar/guides/) · [دراسات الحالة](https://reareverse.com/ar/showcase/)**
 
 [البدء السريع](#البدء-السريع) · [كيف يعمل REA](#كيف-يعمل-rea) · [ما الذي يمكنك تحليله](#ما-الذي-يمكنك-تحليله) · [دراسات الحالة](#دراسات-الحالة) · [الأسئلة الشائعة](#الأسئلة-الشائعة) · [أدوات GNU objdump وRizin](../reverse-engineering-tools.md) · [التوثيق](#التوثيق)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> المصادر الرسمية لـ REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> المصادر الرسمية لـ REA: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > استخدم روابط التثبيت والإصدارات المنشورة في هذه المصادر الرسمية. تشابه اسم المستودع أو نسخ ملف README لا يثبت أن التنزيل رسمي.
 
 <div align="center">
@@ -62,7 +62,7 @@
 
 يسجّل الإعداد REA لدى وكيلك ويثبّت تعليمات سير العمل المطابقة. يمكن لتحليل الشيفرة الأصلية استخدام تثبيت موجود من Hopper أو Ghidra؛ ويمكن للإعداد أيضًا تثبيت Hopper اختياريًا بعد موافقتك. لا يحتاج التحليل الثابت لـ JavaScript إلى أي من المحركين.
 
-> **[زر موقع REA](https://rea.tools/ar/)** للاطلاع على تعليمات الإعداد والأدلة المصوّرة ودراسات الحالة الفعلية.
+> **[زر موقع REA](https://reareverse.com/ar/)** للاطلاع على تعليمات الإعداد والأدلة المصوّرة ودراسات الحالة الفعلية.
 
 ## البدء السريع
 
@@ -170,26 +170,26 @@ npx rea-agents@latest setup
 
 ## دراسات الحالة
 
-[![رسوم توضيحية لأمثلة توزيع الصوت في DX-Ball وجسر الحافظة في Notion وحلقة الطلقات في TH04](../assets/rea-showcases.png)](https://rea.tools/ar/showcase/)
+[![رسوم توضيحية لأمثلة توزيع الصوت في DX-Ball وجسر الحافظة في Notion وحلقة الطلقات في TH04](../assets/rea-showcases.png)](https://reareverse.com/ar/showcase/)
 
 ### DX-Ball: إعادة بناء حساب توزيع الصوت بين القناتين
 
 تتبّع استدعاء صوت إلى الدالة المساعدة التي تحوّل الموضع إلى توزيع بين القناتين، وافحص التعليمات، وحوّل الشيفرة شبه البرمجية غير المكتملة إلى C. تجتاز إعادة البناء 3,205 حالات اختبار على x86 الأصلي، وتعيد إنتاج جميع بايتات الدالة المترجمة البالغ عددها 63 بايتًا.
 
-[اقرأ دراسة الحالة](https://rea.tools/ar/showcase/dx-ball/) ·
+[اقرأ دراسة الحالة](https://reareverse.com/ar/showcase/dx-ball/) ·
 [مستودع إعادة البناء](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: تتبّع جسر الحافظة في Electron
 
 اعثر على API الحافظة في عملية العرض، وتتبّعه عبر preload وIPC إلى العملية الرئيسية، وافحص صيغة الحافظة ذات التنسيق الغني.
 
-[اقرأ دراسة الحالة](https://rea.tools/ar/showcase/notion/)
+[اقرأ دراسة الحالة](https://reareverse.com/ar/showcase/notion/)
 
 ### TH04: استعادة حساب حلقة المقذوفات في DOS
 
 افحص تعليمات اللعبة الأصلية على PC-98 ذات 16 بت، واستعد حساب الزوايا الثابتة والموجّهة نحو الهدف، وقارن شيفرة C++ المعاد بناؤها بمخرجات المترجم المستخدم آنذاك.
 
-[اقرأ دراسة الحالة](https://rea.tools/ar/showcase/th04/) ·
+[اقرأ دراسة الحالة](https://reareverse.com/ar/showcase/th04/) ·
 [مستودع إعادة البناء](https://github.com/N0zoM1z0/th04)
 
 إذا استخدمت REA لفحص هدف مثير للاهتمام، فنود الاطلاع عليه. شارك حالتك في [issue](https://github.com/morluto/rea/issues) أو [pull request](https://github.com/morluto/rea/pulls)، مع ذكر الهدف، وسؤالك، وكيف ساعدك REA، وما توصلت إليه.
@@ -261,7 +261,7 @@ npx rea-agents@latest setup
 
 ## التوثيق
 
-ابدأ بـ [الأدلة العملية](https://rea.tools/ar/guides/) على الموقع. للخيارات الدقيقة والمتطلبات وعقود النتائج:
+ابدأ بـ [الأدلة العملية](https://reareverse.com/ar/guides/) على الموقع. للخيارات الدقيقة والمتطلبات وعقود النتائج:
 
 - [التثبيت والإعداد](../installation.md): تسجيل الوكلاء، وتهيئة الموفّرين، والتحديثات، وإلغاء التثبيت.
 - [الجاهزية واستكشاف الأخطاء](../installation.md#check-readiness-for-your-task): تشخيص وكيل أو محرك تحليل محدد.

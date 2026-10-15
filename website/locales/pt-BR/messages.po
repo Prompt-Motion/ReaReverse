@@ -11520,7 +11520,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13787,7 +13787,7 @@ msgstr "Seu agente de programação"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14872,7 +14872,7 @@ msgstr "Copiar o prompt de reconstrução do jogo"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -16356,12 +16356,12 @@ msgstr "Colaboradores: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Baixar https://rea.tools/examples/notes-example.zip em uma "
+#~ "{ph0}›{ph1}{ph2}Baixar https://reareverse.com/examples/notes-example.zip em uma "
 #~ "nova pasta de exemplo e descompacte-a. Utilizar REA para descobrir o que "
 #~ "acontece quando clico em Exportar notas. Mostrar onde as notas.o csv é "
 #~ "escrito, quais os campos que contém e os ficheiros e linhas "
@@ -16404,10 +16404,10 @@ msgstr "Colaboradores: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}›{ph1}{ph2}Utilizar REA para inspecionar https://rea.tools/. Clonar "
+#~ "{ph0}›{ph1}{ph2}Utilizar REA para inspecionar https://reareverse.com/. Clonar "
 #~ "este site para mim.{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"

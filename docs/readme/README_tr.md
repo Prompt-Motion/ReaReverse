@@ -18,7 +18,7 @@
 
 <a href="https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/82054" alt="morluto%2Frea | Trendshift" width="250" height="55"/></a>
 
-**[Web sitesi](https://rea.tools/tr/) · [Rehberler](https://rea.tools/tr/guides/) · [Örnek çalışmalar](https://rea.tools/tr/showcase/)**
+**[Web sitesi](https://reareverse.com/tr/) · [Rehberler](https://reareverse.com/tr/guides/) · [Örnek çalışmalar](https://reareverse.com/tr/showcase/)**
 
 [Hızlı başlangıç](#hızlı-başlangıç) · [REA nasıl çalışır](#rea-nasıl-çalışır) · [Neleri analiz edebilirsiniz](#neleri-analiz-edebilirsiniz) · [Örnek çalışmalar](#örnek-çalışmalar) · [Sık sorulan sorular](#sık-sorulan-sorular) · [GNU objdump ve Rizin araçları](../reverse-engineering-tools.md) · [Belgeler](#belgeler)
 
@@ -27,7 +27,7 @@
 </div>
 
 > [!IMPORTANT]
-> REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
+> REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [reareverse.com](https://reareverse.com/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Kurulum ve sürüm bağlantılarını bu resmî kaynaklardan takip edin. Benzer bir depo adı veya kopyalanmış bir README, indirilen dosyanın resmî olduğunu kanıtlamaz.
 
 <div align="center">
@@ -62,7 +62,7 @@ REA, ajanınızı yerel makine kodu içeren ikili dosyaları, JavaScript ve Elec
 
 Kurulum, REA'yı ajanınıza kaydeder ve uyumlu iş akışı talimatlarını yükler. Yerel makine kodu analizi mevcut bir Hopper, Ghidra veya IDA kurulumunu kullanabilir; kurulum işlemi, onayınızla isteğe bağlı olarak Hopper da yükleyebilir. Statik JavaScript analizi bu yerel analiz motorlarından hiçbirine ihtiyaç duymaz.
 
-> Kurulum talimatları, görselli rehberler ve gerçek örnek çalışmalar için **[REA web sitesini ziyaret edin](https://rea.tools/tr/)**.
+> Kurulum talimatları, görselli rehberler ve gerçek örnek çalışmalar için **[REA web sitesini ziyaret edin](https://reareverse.com/tr/)**.
 
 ## Hızlı başlangıç
 
@@ -175,25 +175,25 @@ Yerel makine kodu içeren ikili dosya biçimleri ve ana bilgisayar desteği sağ
 
 ## Örnek çalışmalar
 
-[![DX-Ball ses kaydırma, Notion pano köprüsü ve TH04 mermi halkası örneklerinin çizimleri](../assets/rea-showcases.png)](https://rea.tools/tr/showcase/)
+[![DX-Ball ses kaydırma, Notion pano köprüsü ve TH04 mermi halkası örneklerinin çizimleri](../assets/rea-showcases.png)](https://reareverse.com/tr/showcase/)
 
 ### DX-Ball: Sesin stereo konumlandırma hesabını yeniden oluşturma
 
 Bir ses çağrısından konumu stereo konumlandırmaya dönüştüren yardımcı fonksiyona ilerleyin, talimatları inceleyin ve eksik sözde kodu C'ye dönüştürün. Yeniden oluşturulan kod, özgün x86 üzerinde 3.205 test durumunu geçer ve derlenmiş fonksiyonun 63 baytının tamamını yeniden üretir.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/dx-ball/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/dx-ball)
+[Örnek çalışmayı okuyun](https://reareverse.com/tr/showcase/dx-ball/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/dx-ball)
 
 ### Notion: Electron pano köprüsünü izleme
 
 İşleyici sürecin pano API'sini bulun, preload ve IPC üzerinden ana sürece kadar izleyin ve zengin pano biçimini inceleyin.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/notion/)
+[Örnek çalışmayı okuyun](https://reareverse.com/tr/showcase/notion/)
 
 ### TH04: DOS mermi halkası hesabını geri çıkarma
 
 Özgün PC-98 oyununun 16 bit talimatlarını inceleyin, sabit ve hedefe yönelik açı hesaplarını geri çıkarın ve yeniden oluşturulan C++ kodunu dönemin derleyici çıktısıyla karşılaştırın.
 
-[Örnek çalışmayı okuyun](https://rea.tools/tr/showcase/th04/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/th04)
+[Örnek çalışmayı okuyun](https://reareverse.com/tr/showcase/th04/) · [Yeniden oluşturma deposu](https://github.com/N0zoM1z0/th04)
 
 REA'yı ilginç bir konuda kullandıysanız görmek isteriz. Hedefi, sorunuzu, REA'nın nasıl yardımcı olduğunu ve bulgularınızı bir [issue](https://github.com/morluto/rea/issues) veya [pull request](https://github.com/morluto/rea/pulls) ile paylaşın.
 
@@ -264,7 +264,7 @@ Ajan kullanıyorsanız [kurulum yenilemesini](#reayı-güncelleyin) tamamlayın 
 
 ## Belgeler
 
-Web sitesindeki [uygulamalı rehberlerden](https://rea.tools/tr/guides/) başlayın. Kesin seçenekler, ön koşullar ve sonuç sözleşmeleri için:
+Web sitesindeki [uygulamalı rehberlerden](https://reareverse.com/tr/guides/) başlayın. Kesin seçenekler, ön koşullar ve sonuç sözleşmeleri için:
 
 - [Yükleme ve kurulum](../installation.md): ajan kaydı, sağlayıcı yapılandırması, güncellemeler ve kaldırma.
 - [Hazırlık ve sorun giderme](../installation.md#check-readiness-for-your-task): belirli bir ajanı veya analiz motorunu tanılama.

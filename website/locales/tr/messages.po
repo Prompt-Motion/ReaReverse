@@ -11434,7 +11434,7 @@ msgstr ""
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="first-analysis-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -13690,7 +13690,7 @@ msgstr "Kodlama ajanınız"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="setup-first-prompt" >
-#. {ph3}: <span translate="no" >https://rea.tools/examples/notes-
+#. {ph3}: <span translate="no" >https://reareverse.com/examples/notes-
 #. example.zip</span >
 #. {ph4}: <span translate="no">notes.csv</span>
 #. {ph5}: </span >
@@ -14777,7 +14777,7 @@ msgstr "Oyun yeniden yapılandırma istemini kopyala"
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
 #. {ph2}: <span id="website-project-prompt" >
-#. {ph3}: <span translate="no">https://rea.tools/</span>
+#. {ph3}: <span translate="no">https://reareverse.com/</span>
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
@@ -16247,12 +16247,12 @@ msgstr "Katkıda bulunanlar: {count}"
 #, python-brace-format
 #~ msgctxt "page:first-investigation/index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Download https://rea.tools/examples/notes-example.zip into a"
+#~ "{ph0}›{ph1}{ph2}Download https://reareverse.com/examples/notes-example.zip into a"
 #~ " new example folder and unpack it. Use REA to find what happens when I click"
 #~ " Export notes. Show where notes.csv is written, which fields it contains, "
 #~ "and the relevant files and lines.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}\"{ph1}{ph2}İndir https://rea.tools/examples/notes-example.zip ve "
+#~ "{ph0}\"{ph1}{ph2}İndir https://reareverse.com/examples/notes-example.zip ve "
 #~ "paketini açın. Notları Dışa Aktar'ı tıklattığımda ne olacağını bulmak için "
 #~ "REA kullanın. Notların nerede olduğunu göster.csv yazılır, hangi alanları "
 #~ "içerir ve ilgili dosyalar ve satırlar.{ph3}{ph4}{ph5}"
@@ -16294,10 +16294,10 @@ msgstr "Katkıda bulunanlar: {count}"
 #, python-brace-format
 #~ msgctxt "page:index.html"
 #~ msgid ""
-#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://rea.tools/. Clone this website "
+#~ "{ph0}›{ph1}{ph2}Use REA to inspect https://reareverse.com/. Clone this website "
 #~ "for me.{ph3}{ph4}{ph5}"
 #~ msgstr ""
-#~ "{ph0}\"{ph1}{ph2}İncelemek için REA kullanın https://rea.tools/. Bu web "
+#~ "{ph0}\"{ph1}{ph2}İncelemek için REA kullanın https://reareverse.com/. Bu web "
 #~ "sitesini benim için klonla.{ph3}{ph4}{ph5}"
 
 #~ msgctxt "figure:ctf-mask-equation.svg"
