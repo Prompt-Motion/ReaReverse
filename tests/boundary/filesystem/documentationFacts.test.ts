@@ -29,8 +29,14 @@ const README_LINK_DRIFT_MUTATIONS = [
     "(../installation.md#supported-agents)",
     "(../installation.md#missing-agents)",
   ],
-  ["https://reareverse.com/zh-CN/guides/", "https://reareverse.com/zh-CN/missing/"],
-  ["https://reareverse.com/zh-CN/guides/", "https://reareverse.com/zh-TW/guides/"],
+  [
+    "https://reareverse.com/zh-CN/guides/",
+    "https://reareverse.com/zh-CN/missing/",
+  ],
+  [
+    "https://reareverse.com/zh-CN/guides/",
+    "https://reareverse.com/zh-TW/guides/",
+  ],
   [
     "https://reareverse.com/zh-CN/guides/",
     "https://reareverse.com/zh-CN/guides/?other=1",
