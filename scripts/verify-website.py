@@ -14,7 +14,8 @@ from website import NOTES_FIXTURES, SITE_ORIGIN, authored_markdown, page_url, sy
 
 LEGACY_ORIGIN = "morluto.github.io"
 SITE_TEXT_URL = re.compile(
-    r"https?://(?:rea\.tools|morluto\.github\.io)/[^\s<>\"'`]+", re.IGNORECASE
+    r"https?://(?:reareverse\.com|rea\.tools|morluto\.github\.io)/[^\s<>\"'`]+",
+    re.IGNORECASE,
 )
 
 
